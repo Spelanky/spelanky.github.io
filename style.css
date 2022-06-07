@@ -14,12 +14,11 @@
 
 body {
    font: 16px 'Roboto';
-   background-color: #4d5960;
-   background: linear-gradient(90deg, #1b2121, #667373);
+   background-color: var(--dark);
+   /* background: linear-gradient(90deg, #1b2121, #606f6f); */
    /* display: flex;
 		flex-direction: column; */
    min-height: 100vh;
-   background-color: var(--dark);
 }
 
 input {
@@ -34,16 +33,17 @@ input {
 button {
    color: var(--pink); /* Первоначальный цвет кнопки или теста в ней */
    font-size: 2rem;
-   font-weight: 900;
+   font-weight: 700;
    background-image: linear-gradient(to right, var(--pink), var(--purple));
    -webkit-background-clip: text; /* Фон закрашивается внутри текста, текст на передний план */
    -webkit-text-fill-color: transparent; /*Цвет текста прозрачный и принимает цвет-градиент фона*/
    cursor: pointer;
+   border: none;
    transition: 0.4s; /* Время появления объекта на экране */
 }
 
 #submit-form:hover {
-   opacity: 0.8;
+   opacity: 0.7;
 }
 
 #submit-form:active {
@@ -68,7 +68,7 @@ button {
    padding: 1rem;
    border-radius: 1rem;
    margin-right: 0.5rem; /* Между кнопкой и инпутом */
-   margin-bottom: 1rem; /* Между кнопкой и инпутом */
+   margin-bottom: 0.5rem; /* Между инпутами */
    color: var(--light); /* Цвет текста */
    font-size: 1.25rem;
 }
