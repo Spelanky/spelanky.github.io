@@ -1,11 +1,80 @@
 * {
    padding: 0;
 }
+/* Переменные для цвета для последующего использования */
+:root {
+   --dark: #374151;
+   --darker: #1f2937;
+   --darkest: #111827;
+   --grey: #6b7280;
+   --pink: #ee1883;
+   --purple: #763ff7;
+   --light: #eee;
+}
 
 body {
    font: 16px 'Roboto';
    background-color: #4d5960;
    background: linear-gradient(90deg, #1b2121, #6e7c7c);
+   /* display: flex;
+		flex-direction: column; */
+   min-height: 100vh;
+   background-color: var(--dark);
+}
+
+input {
+   appearance: none;
+   border: none;
+   outline: none;
+   background: none;
+}
+
+/*! Button 'Submit'*/
+#submit-form,
+button {
+   color: var(--pink); /* Первоначальный цвет кнопки или теста в ней */
+   font-size: 2rem;
+   font-weight: 900;
+   background-image: linear-gradient(to right, var(--pink), var(--purple));
+   -webkit-background-clip: text; /* Фон закрашивается внутри текста, текст на передний план */
+   -webkit-text-fill-color: transparent; /*Цвет текста прозрачный и принимает цвет-градиент фона*/
+   cursor: pointer;
+   transition: 0.4s; /* Время появления объекта на экране */
+}
+
+#submit-form:hover {
+   opacity: 0.8;
+}
+
+#submit-form:active {
+   opacity: 0.5;
+}
+
+/*! Input field*/
+#input {
+   display: flex; /* Элементы флекс размещаются в ряд. Кнопка справа от поля ввода */
+   /* max-width: 800px;
+   width: 100%; */
+
+   /* -webkit-box-shadow: 1 2px 10px 0 #074b83;
+	box-shadow: 0 2px 10px 0 #074b83; */
+}
+
+#input_field {
+   display: flex;
+   max-width: 800px;
+   width: 100%;
+   background-color: var(--darkest);
+   padding: 1rem;
+   border-radius: 1rem;
+   margin-right: 0.5rem; /* Между кнопкой и инпутом */
+   margin-bottom: 1rem; /* Между кнопкой и инпутом */
+   color: var(--light); /* Цвет текста */
+   font-size: 1.25rem;
+}
+
+#input_field::placeholder {
+   color: var(--grey);
 }
 
 .conteiner {
@@ -22,113 +91,4 @@ body {
    width: 150px;
    height: 150px;
    border-radius: 50%;
-}
-
-.contacts {
-   list-style: none;
-   text-align: left;
-}
-
-.contacts img {
-   width: 20px;
-   height: 20px;
-}
-
-.photo,
-.author {
-   display: inline-block;
-}
-
-.author {
-   margin-left: 15px;
-   vertical-align: top;
-}
-
-.info_box span {
-   font-size: 21px;
-   color: #809ea8;
-}
-/* задаем свойства заголовку */
-/*Имя*/
-
-h1 {
-   text-align: center;
-   color: #e7ecf8;
-}
-/*Заголовки*/
-
-h3 {
-   background-color: rgb(63, 78, 78);
-   text-align: center;
-   color: #aaf18e;
-}
-/* задаем свойства горизонтальной линии */
-
-hr {
-   border: none;
-   /*color: rgb(167, 168, 250);*/
-   background-color: rgb(174, 175, 179);
-   height: 10px;
-}
-/* задаем свойства тексту */
-/*О себе*/
-
-p {
-   text-align: left;
-   color: #d5e9f2;
-}
-
-a {
-   text-decoration: underline;
-   color: #d5e9f2;
-}
-
-a:hover {
-   text-decoration: underline;
-   color: #5eaf12;
-}
-/*Даты работы*/
-
-p1 {
-   text-align: left;
-   color: #a7a7a7;
-   font-size: 10pt;
-}
-/*Должности*/
-
-p2 {
-   text-align: left;
-   color: #e1e9d8;
-   font-size: 19px;
-}
-
-img {
-   display: inline-block;
-   vertical-align: middle;
-   padding-right: 5px;
-}
-/* задаем свойства списку */
-
-li {
-   margin: 8px 0;
-}
-
-.skills {
-   color: #d5e9f2;
-   list-style: square;
-}
-
-.theory {
-   color: #d5e9f2;
-   list-style: circle;
-}
-
-.spoiler_links {
-   text-decoration: underline;
-   color: #d5e9f2;
-}
-
-.spoiler_links:hover {
-   text-decoration: underline;
-   color: #dd7b0a;
 }
