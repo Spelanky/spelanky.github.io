@@ -10,12 +10,13 @@
    --pink: #ee1883;
    --purple: #763ff7;
    --light: #eee;
+   --gradient_grey: linear-gradient(90deg, #1b2121, #606f6f);
 }
 
 body {
    font: 16px 'Roboto';
    /* background-color: var(--dark); */
-   background: linear-gradient(90deg, #1b2121, #606f6f);
+   background: var(--gradient_grey);
    /* display: flex;
 		flex-direction: column; */
    min-height: 100vh;
