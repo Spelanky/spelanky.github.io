@@ -14,8 +14,8 @@
 
 body {
    font: 16px 'Roboto';
-   background-color: var(--dark);
-   /* background: linear-gradient(90deg, #1b2121, #606f6f); */
+   /* background-color: var(--dark); */
+   background: linear-gradient(90deg, #1b2121, #606f6f);
    /* display: flex;
 		flex-direction: column; */
    min-height: 100vh;
