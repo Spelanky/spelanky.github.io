@@ -18,8 +18,16 @@ body {
    /* background-color: var(--dark); */
    background: var(--gradient_grey);
    /* display: flex;
-		flex-direction: column; */
+   flex-direction: column; */
    min-height: 100vh;
+}
+
+h2 {
+   /* padding-left: 3em; */
+   font-size: 2rem;
+   font-weight: 500;
+   color: #763ff7;
+   margin-bottom: 9rem;
 }
 
 input {
@@ -39,7 +47,7 @@ button {
    -webkit-background-clip: text; /* Фон закрашивается внутри текста, текст на передний план */
    -webkit-text-fill-color: transparent; /*Цвет текста прозрачный и принимает цвет-градиент фона*/
    cursor: pointer;
-   border: none;
+   border: none; /*Убирает границы кнопки  */
    transition: 0.4s; /* Время появления объекта на экране */
 }
 
