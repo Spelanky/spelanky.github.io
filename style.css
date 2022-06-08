@@ -71,7 +71,7 @@ button {
 
 #input_field {
    display: flex;
-   max-width: 800px;
+   max-width: 500px;
    width: 100%;
    background-color: var(--darkest);
    padding: 1rem;

@@ -2,27 +2,28 @@
 <html lang="en">
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+   </script>
+   <script type="text/javascript">
+      $(document).ready(function() {
             $('.spoiler_links').click(function() {
-                $(this).parent().children('div.spoiler_body').toggle('normal');
-                return false;
+               $(this).parent().children('div.spoiler_body').toggle('normal');
+               return false;
             });
-        });
-    </script>
-    <meta charset="UTF-8">
-    <title>SUBMISSION Page</title>
-    <link rel="stylesheet" href="style.css">
+      });
+   </script>
+   <meta charset="UTF-8">
+   <title>SUBMISSION Page</title>
+   <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <div class="conteiner">
-        <div class="header">
+   <div class="conteiner">
+      <div class="header">
             <div class="photo">
-                <img src="Images\2.png" />
+		      	<img src="Images\2.png" />
+				</div>
 
 						<h2> DEV Large Form
 					<form action="https://headless.freihandlabor.dev/api/v1/form-submission/bxxMjx7K0B" method="POST">
@@ -39,22 +40,21 @@
 						<input type="text" id="input_field" name="message" placeholder="message">
 						<button type="submit" id="submit-form">Submit</button>
 						
-						<!-- <h2> PROD Small Form #2
+						<h2> PROD Small Form #2
 					<form action="https://app.headlessforms.cloud/api/v1/form-submission/KAhlZ5FgT1" method="POST">
 						<input type="email" id="input_field" name="email" placeholder="email">
 						<input type="text" id="input_field" name="name" placeholder="name">
 						<input type="text" id="input_field" name="message" placeholder="message">
 						<button type="submit" id="submit-form">Submit</button>
 
-						<h2> PROD Small Form #3
+						<!-- <h2> PROD Small Form #3
 					<form action="https://app.headlessforms.cloud/api/v1/form-submission/KAhlZ5FgT1" method="POST">
 						<input type="email" id="input_field" name="email" placeholder="email">
 						<input type="text" id="input_field" name="name" placeholder="name">
 						<input type="text" id="input_field" name="message" placeholder="message">
 						<button type="submit" id="submit-form">Submit</button> -->
-				</div>			
-			</div>	
-	</div>	
+		</div>
+	</div>
 </body>
 
 </html>
