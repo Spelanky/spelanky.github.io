@@ -26,7 +26,7 @@ h2 {
    /* padding-left: 3em; */
    font-size: 2rem;
    font-weight: 500;
-   color: #763ff7;
+   color: var(--grey);
    /* margin-bottom: 9rem; */
 }
 
