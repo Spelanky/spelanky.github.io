@@ -27,7 +27,7 @@ h2 {
    font-size: 2rem;
    font-weight: 500;
    color: var(--grey);
-   /* margin-bottom: 9rem; */
+   margin-bottom: 0.2rem;
 }
 
 input {
