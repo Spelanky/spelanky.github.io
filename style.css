@@ -75,7 +75,7 @@ label {
 #attachment,
 #attachment2 {
    display: flex;
-   max-width: 500px;
+   max-width: 501px;
    width: 100%;
    background-color: var(--darkest);
    padding: 1rem;
