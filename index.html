@@ -67,6 +67,18 @@
 
                <button type="submit" id="submit-form">Submit</button>
             </form>
+
+            <h2>DEV Form HonePot</h2>
+            <form action="https://headless.freihandlabor.dev/api/v1/form-submission/wlDgR9PU2j" method="POST">
+               <input type="email" id="input_field" name="email" placeholder="email" />
+               <input type="text" id="input_field" name="name" placeholder="name" />
+               <input type="text" id="input_field" name="message" placeholder="message" />
+
+               <!-- honeypot handle -->
+               <input type="hidden" id="input_field" name="email_honey" value="honeypot" />
+
+               <button type="submit" id="submit-form">Submit</button>
+            </form>
          </div>
       </div>
    </body>
