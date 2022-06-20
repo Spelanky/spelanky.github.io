@@ -30,18 +30,14 @@
 
          <div class="column1">
             <h2>DEV LARGE Form #1</h2>
-            <form action="https://headless.freihandlabor.dev/api/v1/form-submission/bxxMjx7K0B" method="POST">
+            <form action="https://headless.freihandlabor.dev/api/v1/form-submission/bxxMjx7K0B" enctype="multipart/form-data" method="POST">
                <input type="email" id="input_field" name="email" placeholder="email" />
                <input type="text" id="input_field" name="name" placeholder="name" />
                <input type="text" id="input_field" name="message" placeholder="message" />
 
-               <!-- single file attachment handle -->
-               <label for="attachment">Attach one file:</label>
-               <input type="file" id="attachment" name="attachments" />
-
                <!-- multiple files attachment handle -->
                <label for="attachment2">Attach multiple files:</label>
-               <input type="file" id="attachment2" name="attachments[]" multiple />
+               <input type="file" name="attachments[]" multiple />
 
                <!-- honeypot handle -->
                <!-- <input type="hidden" id="input_field" name="email_honey" value="honeypot" /> -->
