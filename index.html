@@ -70,7 +70,7 @@
 
          <div class="column2">
             <h2>PROD SMALL Form #2</h2>
-            <form action="https://app.headlessforms.cloud/api/v1/form-submission/tdp3TCdVMI" method="POST">
+            <form action="https://app.headlessforms.cloud/api/v1/form-submission/tdp3TCdVMI" enctype="multipart/form-data" method="POST">
                <input type="email" id="input_field" name="email" placeholder="email" />
                <input type="text" id="input_field" name="name" placeholder="name" />
                <input type="text" id="input_field" name="message" placeholder="message" />
@@ -81,7 +81,7 @@
 
                <!-- multiple files attachment handle -->
                <label for="attachment2">Attach multiple files:</label>
-               <input type="file" name="attachments[]" multiple />
+               <input type="file" id="attachment" name="attachments[]" multiple />
 
                <!-- multiple files attachment handle -->
                <!-- <label for="attachment2">Attach multiple files:</label>
