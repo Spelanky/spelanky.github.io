@@ -34,11 +34,8 @@ h2 {
    /* padding-left: 3em; */
    font-size: 2rem;
    font-weight: 500;
-<<<<<<< HEAD
    color: #000000;
-=======
    color: var(--pink);
->>>>>>> e2682bccc86a6f07c1b5323ddf650e031ea0b863
    margin-bottom: 0.2rem;
 }
 
