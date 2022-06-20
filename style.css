@@ -17,8 +17,8 @@ body {
    font: 16px 'Roboto';
    /* background-color: var(--dark); */
    background: var(--gradient_grey);
-   /* display: flex;
-   flex-direction: column; */
+   /* display: flex; */
+   /* flex-direction: column; */
    min-height: 100vh;
 }
 
@@ -64,8 +64,8 @@ button {
 #input,
 label {
    display: flex; /* Элементы флекс размещаются в ряд. Кнопка справа от поля ввода */
-   /* max-width: 800px;
-   width: 100%; */
+   /* max-width: 800px; */
+   /* width: 100%; */
 
    /* -webkit-box-shadow: 1 2px 10px 0 #074b83;
 	box-shadow: 0 2px 10px 0 #074b83; */
@@ -75,8 +75,8 @@ label {
 #attachment,
 #attachment2 {
    display: flex;
-   max-width: 501px;
-   width: 100%;
+   max-width: 300px;
+   width: 530px;
    background-color: var(--darkest);
    padding: 1rem;
    border-radius: 1rem;
@@ -92,7 +92,9 @@ label {
 
 .container {
    display: flex;
-   width: 700px;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 1000px;
    margin: 0 auto;
    padding: 0 20px;
 }
