@@ -15,8 +15,8 @@
 
 body {
    font: 16px 'Roboto';
-   /* background-color: var(--dark); */
-   background: var(--gradient_grey);
+   background-color: var(--dark);
+   /* background: var(--gradient_grey); */
    /* display: flex; */
    /* flex-direction: column; */
    min-height: 100vh;
