@@ -25,7 +25,7 @@ body {
 label {
    /* padding-left: 3em; */
    font-size: 1.5rem;
-   font-weight: 501;
+   font-weight: 500;
    color: var(--grey);
    margin-bottom: 0.2rem;
 }
