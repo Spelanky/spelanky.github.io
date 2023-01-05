@@ -8,27 +8,24 @@
       <link
          rel="apple-touch-icon"
          sizes="180x180"
-         href="Images/apple-touch-icon.png"
-      />
+         href="Images/apple-touch-icon.png" />
       <link
          rel="icon"
          type="image/png"
          sizes="32x32"
-         href="Images/favicon-32x32.png"
-      />
+         href="Images/favicon-32x32.png" />
       <link
          rel="icon"
          type="image/png"
          sizes="16x16"
-         href="Images/favicon-16x16.png"
-      />
+         href="Images/favicon-16x16.png" />
       <link rel="manifest" href="/site.webmanifest" />
 
       <script>
          (() => {
             var e;
             (e = location.href),
-               (document.getElementsByName('__DATA')[0].value = JSON.stringify({
+               (document.getElementsByName("__DATA")[0].value = JSON.stringify({
                   referer: e,
                }));
          })();
@@ -42,42 +39,38 @@
             <h2>Form #1</h2>
             <!-- <img src=javascript:alert('xss-injection!')> -->
             <form
-               action="https://headless.freihandlabor.dev/api/v1/form-submission/Is3ZbSMkYG"
+               action="https://headless.freihandlabor.dev/api/v1/form-submission/N9lZ0jJ9G5"
                method="POST"
-               enctype="multipart/form-data"
-            >
-               <input
-                  type="email"
-                  id="input_field"
-                  name="email"
-                  placeholder="email"
-               />
-               <!-- <input type="email" id="input_field" name="email" placeholder="email" /> -->
+               enctype="multipart/form-data">
                <input
                   type="text"
                   id="input_field"
                   name="name"
-                  placeholder="name"
-               />
+                  placeholder="name" />
+               <input
+                  type="email"
+                  id="input_field"
+                  name="email"
+                  placeholder="email" />
+               <!-- <input type="email" id="input_field" name="email" placeholder="email" /> -->
+
                <input
                   type="text"
                   id="input_field"
                   name="message"
-                  placeholder="message"
-               />
+                  placeholder="message" />
 
                <!-- single file attachment handle -->
-               <label for="attachment2">Attach single file:</label>
+               <label for="attachment">Attach single file:</label>
                <input type="file" id="attachment" name="attachments" />
 
                <!-- multiple files attachment handle -->
-               <label for="attachment2">Attach multiple files:</label>
+               <label for="attachment">Attach multiple files:</label>
                <input
                   type="file"
                   id="attachment"
                   name="attachments[]"
-                  multiple
-               />
+                  multiple />
 
                <!-- honeypot handle -->
                <!-- <input type="hidden" id="input_field" name="email_honey" value="honeypot" /> -->
@@ -88,28 +81,24 @@
 
             <h2>Form #2</h2>
             <form
-               action="https://headless.freihandlabor.dev/api/v1/form-submission/LRKrT04LUZ"
+               action="https://headless.freihandlabor.dev/api/v1/form-submission/N9lZ0jJ9G5"
                enctype="multipart/form-data"
-               method="POST"
-            >
+               method="POST">
                <input
                   type="email"
                   id="input_field"
                   name="email"
-                  placeholder="email"
-               />
+                  placeholder="email" />
                <input
                   type="text"
                   id="input_field"
                   name="name"
-                  placeholder="name"
-               />
+                  placeholder="name" />
                <input
                   type="text"
                   id="input_field"
                   name="message"
-                  placeholder="message"
-               />
+                  placeholder="message" />
 
                <button type="submit" id="submit-form">Submit</button>
             </form>
@@ -126,34 +115,29 @@
             <h2>DEV HoneyPot Form</h2>
             <form
                action="https://headless.freihandlabor.dev/api/v1/form-submission/wlDgR9PU2j"
-               method="POST"
-            >
+               method="POST">
                <input
                   type="email"
                   id="input_field"
                   name="email"
-                  placeholder="email"
-               />
+                  placeholder="email" />
                <input
                   type="text"
                   id="input_field"
                   name="name"
-                  placeholder="name"
-               />
+                  placeholder="name" />
                <input
                   type="text"
                   id="input_field"
                   name="message"
-                  placeholder="message"
-               />
+                  placeholder="message" />
 
                <!-- honeypot handle -->
                <input
                   type="hidden"
                   id="input_field"
                   name="email_honey"
-                  value="honeypot"
-               />
+                  value="honeypot" />
 
                <button type="submit" id="submit-form">Submit</button>
             </form>
@@ -162,28 +146,24 @@
          <div class="column2">
             <h2>Form #3</h2>
             <form
-               action="https://app.headlessforms.cloud/api/v1/form-submission/MgfTEu5AFb"
+               action="https://headless.freihandlabor.dev/api/v1/form-submission/N9lZ0jJ9G5"
                method="POST"
-               enctype="multipart/form-data"
-            >
+               enctype="multipart/form-data">
                <input
                   type="email"
                   id="input_field"
                   name="email"
-                  placeholder="email"
-               />
+                  placeholder="email" />
                <input
                   type="text"
                   id="input_field"
                   name="name"
-                  placeholder="name"
-               />
+                  placeholder="name" />
                <input
                   type="text"
                   id="input_field"
                   name="message"
-                  placeholder="message"
-               />
+                  placeholder="message" />
 
                <!-- single file attachment handle -->
                <label for="attachment">Attach one file:</label>
@@ -193,10 +173,9 @@
                <label for="attachment2">Attach multiple files:</label>
                <input
                   type="file"
-                  id="attachment"
+                  id="attachment2"
                   name="attachments[]"
-                  multiple
-               />
+                  multiple />
 
                <!-- honeypot handle -->
                <!-- <input type="hidden" id="input_field" name="email_honey" value="honeypot" /> -->
