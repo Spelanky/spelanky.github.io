@@ -30,20 +30,28 @@ label {
    margin-bottom: 0.2rem;
 }
 
+h1 {
+   padding-left: 3em;
+   font-size: 2rem;
+   font-weight: 500;
+   color: var(--pink);
+   /* margin-bottom: 0.2rem; */
+}
+
 h2 {
    /* padding-left: 3em; */
    font-size: 2rem;
    font-weight: 500;
-   color: #000000;
-   margin-bottom: 0.2rem;
+   color: #986cdf;
+   /* margin-bottom: 0.2rem; */
 }
 
 h3 {
    /* padding-left: 3em; */
-   font-size: 2rem;
+   font-size: 1.5rem;
    font-weight: 500;
-   color: #000000;
-   margin-bottom: 0.2rem;
+   color: #acacac;
+   /* margin-bottom: 0.2rem; */
 }
 
 input {
