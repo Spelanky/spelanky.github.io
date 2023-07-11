@@ -38,6 +38,14 @@ h2 {
    margin-bottom: 0.2rem;
 }
 
+h3 {
+   /* padding-left: 3em; */
+   font-size: 2rem;
+   font-weight: 500;
+   color: #000000;
+   margin-bottom: 0.2rem;
+}
+
 input {
    appearance: none;
    border: none;
