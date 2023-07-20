@@ -73,6 +73,7 @@ button {
    cursor: pointer;
    border: none; /*Убирает границы кнопки  */
    transition: 0.4s; /* Время появления объекта на экране */
+   margin-bottom: 1rem;
 }
 
 #submit-form:hover {
@@ -130,4 +131,8 @@ label {
    width: 100px;
    height: 100px;
    border-radius: 50%;
+}
+
+.selector {
+   font-size: 3rem;
 }
