@@ -36,9 +36,13 @@
                <input type="email" class="input_field" id="email_d1" name="email" placeholder="email" />
                <input type="text" class="input_field" id="message_d1" name="message" placeholder="message" />
 
-               <!-- single file attachment handle -->
+               <!-- single file attachment -->
                <label for="attachment">Attach single file:</label>
                <input type="file" id="attachment" test-id="attachment1" name="attachments" />
+
+               <!-- multiple files attachment -->
+               <label for="attachment2">Attach multiple files:</label>
+               <input type="file" id="attachment2" test-id="attachment2" name="attachments[]" multiple />
 
                <!-- Submit button -->
                <button type="submit" id="submit-form" test-id="submit_d1">Submit</button>
